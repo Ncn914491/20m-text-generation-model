@@ -1,0 +1,37 @@
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+final_model/
+best_model/
+
+# Data
+data/
+datasets/
+*.csv
+*.json
+!requirements.txt
+!metrics_summary.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+*.log
+wandb/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
