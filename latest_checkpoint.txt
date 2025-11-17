@@ -1,0 +1,1 @@
+/content/drive/MyDrive/text_gen_checkpoints/checkpoint_epoch1_step6500.pt

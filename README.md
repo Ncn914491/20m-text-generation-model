@@ -1,11 +1,11 @@
-# 10M Parameter Text Generation Model
+# 20M Parameter Text Generation Model
 
-A lightweight transformer-based language model with ~10 million parameters for text generation and NLP tasks, optimized for Google Colab training.
+A lightweight transformer-based language model with ~20 million parameters for text generation and NLP tasks, optimized for Google Colab training.
 
 ## Project Overview
 
 This project implements a GPT-2 style transformer model with the following specifications:
-- **Parameters**: ~10 million
+- **Parameters**: ~20 million
 - **Architecture**: 8-layer transformer with 8 attention heads
 - **Embedding Dimension**: 256
 - **Context Length**: 512 tokens
@@ -13,7 +13,7 @@ This project implements a GPT-2 style transformer model with the following speci
 
 ## Features
 
-- Efficient 10M parameter architecture
+- Efficient 20M parameter architecture
 - Text generation with temperature and sampling controls
 - Comprehensive benchmarking suite
 - Training progress tracking
@@ -48,7 +48,7 @@ GPT2Config:
 - n_inner: 1024
 ```
 
-**Estimated Parameters**: ~10,000,000
+**Estimated Parameters**: ~20,000,000
 
 ## Training Configuration
 
@@ -100,6 +100,7 @@ Expected performance metrics:
 ## Files
 
 - `text_generation_model.ipynb` - Main training notebook
+- `text_generation_model_gdrive_checkpoints.ipynb` - Training with Google Drive checkpoint support
 - `README.md` - This file
 - `requirements.txt` - Python dependencies
 - `best_model.pt` - Best model checkpoint (generated during training)
